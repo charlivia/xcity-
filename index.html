@@ -9,6 +9,8 @@
   html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
   }
   body {
     background: #0a0a0f;
@@ -21,7 +23,7 @@
   /* Hero */
   .hero {
     position: relative;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     background: #0a0a0f url('hero-bg.jpg') center center / cover no-repeat;
     display: flex;
@@ -30,6 +32,7 @@
     justify-content: flex-end;
     padding: 40px 20px 80px;
     text-align: center;
+    margin-left: calc(50% - 50vw);
   }
   .hero::before {
     content: "";
@@ -53,7 +56,8 @@
   .logo img {
     height: 36px;
     width: auto;
-    background: transparent;
+    background: none;
+    display: block;
   }
   .hero h1 {
     font-size: clamp(28px, 4.5vw, 48px);
