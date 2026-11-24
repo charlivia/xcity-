@@ -9,8 +9,6 @@
   html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    overflow-x: hidden;
   }
   body {
     background: #0a0a0f;
@@ -23,9 +21,8 @@
   /* Hero */
   .hero {
     position: relative;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
-    margin-left: calc(-50vw + 50%);
     background: #0a0a0f url('hero-bg.jpg') center center / cover no-repeat;
     display: flex;
     flex-direction: column;
@@ -56,6 +53,7 @@
   .logo img {
     height: 36px;
     width: auto;
+    background: transparent;
   }
   .hero h1 {
     font-size: clamp(28px, 4.5vw, 48px);
@@ -235,42 +233,42 @@
   <p class="sub">點數越多，抽獎機會越高——這些大獎正在等你</p>
   <div class="prize-grid">
     <div class="prize-card">
-      <img src="prizes/prize1.jpg" alt="女優一對一互動">
+      <img src="prize1.jpg" alt="女優一對一互動">
       <div class="info">
         <h3>女優一對一互動</h3>
         <p>免費互動席位</p>
       </div>
     </div>
     <div class="prize-card">
-      <img src="prizes/prize2.jpg" alt="女優周邊商品">
+      <img src="prize2.jpg" alt="女優周邊商品">
       <div class="info">
         <h3>女優周邊商品</h3>
         <p>限定周邊好禮</p>
       </div>
     </div>
     <div class="prize-card">
-      <img src="prizes/prize3.jpg" alt="女優貼身物品">
+      <img src="prize3.jpg" alt="女優貼身物品">
       <div class="info">
         <h3>女優貼身物品</h3>
         <p>隨機私密戰利品</p>
       </div>
     </div>
     <div class="prize-card">
-      <img src="prizes/prize4.jpg" alt="專屬影片放送">
+      <img src="prize4.jpg" alt="專屬影片放送">
       <div class="info">
         <h3>專屬影片放送</h3>
         <p>女優親錄祝賀影片 🔓 待解鎖</p>
       </div>
     </div>
     <div class="prize-card">
-      <img src="prizes/prize5.jpg" alt="拍片場景巡禮">
+      <img src="prize5.jpg" alt="拍片場景巡禮">
       <div class="info">
         <h3>拍片場景巡禮</h3>
         <p>幕後獨家體驗 🔓 待解鎖</p>
       </div>
     </div>
     <div class="prize-card">
-      <img src="prizes/prize6.jpg" alt="日本來回機票">
+      <img src="prize6.jpg" alt="日本來回機票">
       <div class="info">
         <h3>日本來回機票</h3>
         <p>雙人機票大獎</p>
