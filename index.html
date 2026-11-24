@@ -23,7 +23,9 @@
   /* Hero */
   .hero {
     position: relative;
+    width: 100vw;
     min-height: 100vh;
+    margin-left: calc(-50vw + 50%);
     background: #0a0a0f url('hero-bg.jpg') center center / cover no-repeat;
     display: flex;
     flex-direction: column;
@@ -202,7 +204,7 @@
   }
 
   @media (max-width: 768px) {
-    .logo { left: 20px; top: 20px; font-size: 26px; }
+    .logo { left: 20px; top: 20px; }
     .countdown { flex-wrap: wrap; }
   }
 </style>
